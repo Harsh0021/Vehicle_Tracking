@@ -50,7 +50,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         context = this;
-        ImpMethods.closeSoftKeyboard(context);
         initViews();
         getData();
         btn_add.setOnClickListener(new View.OnClickListener() {
@@ -74,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
         MainLoader.Loader(false , findViewById(R.id.notFound));
         MainLoader.Loader(false , findViewById(R.id.somethingWrong));
 
-        FirebaseDatabase.getInstance(Constants.FIREBASE_REFERENCE).getReference().child("Vehicle").get().addOnCompleteListener(new OnCompleteListener<DataSnapshot>() {
+        FirebaseDatabase.getInstance(Constants.FIREBASE_REFERENCE).getReference().child("Users").child(tinyDB.getString(Constants.USER_MOBILE_NO)).child("Vehicle").get().addOnCompleteListener(new OnCompleteListener<DataSnapshot>() {
             @Override
             public void onComplete(@NonNull Task<DataSnapshot> task) {
                 MainLoader.Loader(false , findViewById(R.id.LL_loader));

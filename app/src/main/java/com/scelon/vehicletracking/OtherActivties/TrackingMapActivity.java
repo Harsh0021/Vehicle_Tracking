@@ -45,6 +45,7 @@ public class TrackingMapActivity extends AppCompatActivity implements OnMapReady
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tracking_map);
         context = this;
+        tinyDB = new TinyDB(context);
         vehicleNo = getIntent().getStringExtra("vehicleNo");
         toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -63,7 +64,7 @@ public class TrackingMapActivity extends AppCompatActivity implements OnMapReady
 
         locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
 
-        FirebaseDatabase.getInstance(Constants.FIREBASE_REFERENCE).getReference().child("Vehicle").child(vehicleNo).addValueEventListener(new ValueEventListener() {
+        FirebaseDatabase.getInstance(Constants.FIREBASE_REFERENCE).getReference().child("Users").child(tinyDB.getString(Constants.USER_MOBILE_NO)).child("Vehicle").child(vehicleNo).addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
                 MainLoader.Loader(false , findViewById(R.id.somethingWrong));

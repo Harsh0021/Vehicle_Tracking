@@ -61,6 +61,7 @@ public class AddVehicleActivity extends AppCompatActivity {
         btn_add.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                ImpMethods.closeSoftKeyboard(context);
                 String mVehicleNo = et_vehicleNo.getText().toString().trim();
                 verify(mVehicleNo);
             }
@@ -78,7 +79,7 @@ public class AddVehicleActivity extends AppCompatActivity {
         data.put(Constants.LATITUDE, "");
         data.put(Constants.LONGITUDE, "");
 
-        FirebaseDatabase.getInstance(Constants.FIREBASE_REFERENCE).getReference().child("Vehicle").child(vehicleNo).setValue(data).addOnCompleteListener(new OnCompleteListener<Void>() {
+        FirebaseDatabase.getInstance(Constants.FIREBASE_REFERENCE).getReference().child("Users").child(tinyDB.getString(Constants.USER_MOBILE_NO)).child("Vehicle").child(vehicleNo).setValue(data).addOnCompleteListener(new OnCompleteListener<Void>() {
             @Override
             public void onComplete(@NonNull com.google.android.gms.tasks.Task<Void> task) {
                 if (task.isSuccessful()) {
@@ -118,7 +119,7 @@ public class AddVehicleActivity extends AppCompatActivity {
             dialog.setCancelable(false);
             dialog.show();
 
-            FirebaseDatabase.getInstance(Constants.FIREBASE_REFERENCE).getReference().child("Vehicle").child(vehicleNo).get().addOnCompleteListener(new OnCompleteListener<DataSnapshot>() {
+            FirebaseDatabase.getInstance(Constants.FIREBASE_REFERENCE).getReference().child("Users").child(tinyDB.getString(Constants.USER_MOBILE_NO)).child("Vehicle").child(vehicleNo).get().addOnCompleteListener(new OnCompleteListener<DataSnapshot>() {
                 @Override
                 public void onComplete(@NonNull Task<DataSnapshot> task) {
                     dialog.dismiss();

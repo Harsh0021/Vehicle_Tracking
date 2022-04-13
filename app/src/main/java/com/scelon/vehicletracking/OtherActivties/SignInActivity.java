@@ -99,6 +99,7 @@ public class SignInActivity extends AppCompatActivity {
                     DataSnapshot snapshot = task.getResult();
                     //Toast.makeText(context, "" + snapshot.exists(), Toast.LENGTH_SHORT).show();
                     if (snapshot.exists()) {
+                        tinyDB.putString(Constants.USER_MOBILE_NO , decryptedData);
                         mobileVerification.verifyOtpDialog(finalPhone_no);
                         mobileVerification.addOnMobileVerificationFinished(new MobileVerification.OnMobileVerificationFinished() {
                             @Override

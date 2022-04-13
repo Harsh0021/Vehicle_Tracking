@@ -26,7 +26,7 @@ public class SplashActivity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                if (tinyDB.getInt(Constants.LOGIN_FLAG) == 1) {
+                if (tinyDB.getInt(Constants.LOGIN_FLAG) == 1 && !tinyDB.getString(Constants.USER_MOBILE_NO).equals("")) {
                     Intent intent = new Intent(context, MainActivity.class);
                     intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_CLEAR_TASK);
                     startActivity(intent);

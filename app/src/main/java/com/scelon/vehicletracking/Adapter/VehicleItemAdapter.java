@@ -31,6 +31,7 @@ import com.scelon.vehicletracking.OtherActivties.TrackingMapActivity;
 import com.scelon.vehicletracking.R;
 import com.scelon.vehicletracking.Utils.Constants;
 import com.scelon.vehicletracking.Utils.ImpMethods;
+import com.scelon.vehicletracking.Utils.TinyDB;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -108,7 +109,7 @@ public class VehicleItemAdapter extends RecyclerView.Adapter<VehicleItemAdapter.
         Map<String, Object> data = new HashMap<>();
         data.put(Constants.VEHICLE_NO, vehicleNo);
 
-        FirebaseDatabase.getInstance(Constants.FIREBASE_REFERENCE).getReference().child("Vehicle").child(vehicleNo).removeValue().addOnCompleteListener(new OnCompleteListener<Void>() {
+        FirebaseDatabase.getInstance(Constants.FIREBASE_REFERENCE).getReference().child("Users").child(new TinyDB(context).getString(Constants.USER_MOBILE_NO)).child("Vehicle").child(vehicleNo).removeValue().addOnCompleteListener(new OnCompleteListener<Void>() {
             @Override
             public void onComplete(@NonNull com.google.android.gms.tasks.Task<Void> task) {
                 if (task.isSuccessful()) {
