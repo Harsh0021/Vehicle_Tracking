@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/System Software/Projects/BasicConfigProject/app/src/main/res/drawable/add.xml" value="0.2101851851851852" />
+        <entry key="..\:/System Software/Projects/BasicConfigProject/app/src/main/res/drawable/not_found.xml" value="0.2101851851851852" />
+        <entry key="..\:/System Software/Projects/BasicConfigProject/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/System Software/Projects/BasicConfigProject/app/src/main/res/layout/custom_spin_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/System Software/Projects/BasicConfigProject/app/src/main/res/layout/loader_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/System Software/Projects/BasicConfigProject/app/src/main/res/layout/not_found_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/System Software/Projects/BasicConfigProject/app/src/main/res/layout/something_went_wrong.xml" value="0.25416666666666665" />
+        <entry key="..\:/System Software/Projects/BasicConfigProject/app/src/main/res/menu/lectures_navigation.xml" value="0.25416666666666665" />
+        <entry key="..\:/System Software/Projects/BasicConfigProject/app/src/main/res/menu/main_page_navigation_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/System Software/Projects/BasicProject/app/src/main/res/layout/activity_add_vehicle.xml" value="0.20854700854700856" />
+        <entry key="..\:/System Software/Projects/BasicProject/app/src/main/res/layout/activity_main.xml" value="0.20854700854700856" />
+        <entry key="..\:/System Software/Projects/MF Partner/app/src/main/res/drawable/home.xml" value="0.144" />
+        <entry key="..\:/System Software/Projects/MF Partner/app/src/main/res/drawable/ic_refresh.xml" value="0.194" />
+        <entry key="..\:/System Software/Projects/MF Partner/app/src/main/res/drawable/message_selector.xml" value="0.20555555555555555" />
+        <entry key="..\:/System Software/Projects/MF Partner/app/src/main/res/drawable/not_found.xml" value="0.1245" />
+        <entry key="..\:/System Software/Projects/MF Partner/app/src/main/res/drawable/round_corner_bg.xml" value="0.144" />
+        <entry key="..\:/System Software/Projects/MF Partner/app/src/main/res/layout/activity_advance_web_view.xml" value="0.25416666666666665" />
+        <entry key="..\:/System Software/Projects/MF Partner/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/System Software/Projects/MF Partner/app/src/main/res/layout/customised_toolbar.xml" value="0.25416666666666665" />
+        <entry key="..\:/System Software/Projects/MF Partner/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/System Software/Projects/MF Partner/app/src/main/res/layout/not_found_layout.xml" value="0.11354166666666667" />
+        <entry key="..\:/System Software/Projects/MF Partner/app/src/main/res/layout/services_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/System Software/Projects/MF Partner/app/src/main/res/layout/sub_cat_services_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/System Software/Projects/MF Partner/app/src/main/res/menu/bottom_nav.xml" value="0.25416666666666665" />
+        <entry key="..\:/System Software/Projects/MF Partner/app/src/main/res/menu/main_page_navigation_menu.xml" value="0.13020833333333334" />
+        <entry key="..\:/System Software/Projects/MF Partner/app/src/main/res/menu/navigation.xml" value="0.13020833333333334" />
+        <entry key="..\:/System Software/Projects/MF Partner/app/src/main/res/menu/refresh_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/System Software/Projects/Vehicle Tracking/app/src/main/res/drawable/correct.xml" value="0.144" />
+        <entry key="..\:/System Software/Projects/Vehicle Tracking/app/src/main/res/drawable/pinview_bg_inactive.xml" value="0.144" />
+        <entry key="..\:/System Software/Projects/Vehicle Tracking/app/src/main/res/drawable/pinview_bg_success.xml" value="0.144" />
+        <entry key="..\:/System Software/Projects/Vehicle Tracking/app/src/main/res/layout/activity_add_vehicle.xml" value="0.264" />
+        <entry key="..\:/System Software/Projects/Vehicle Tracking/app/src/main/res/layout/activity_main.xml" value="0.20854700854700856" />
+        <entry key="..\:/System Software/Projects/Vehicle Tracking/app/src/main/res/layout/activity_sign_in.xml" value="0.20854700854700856" />
+        <entry key="..\:/System Software/Projects/Vehicle Tracking/app/src/main/res/layout/activity_sign_up.xml" value="0.20854700854700856" />
+        <entry key="..\:/System Software/Projects/Vehicle Tracking/app/src/main/res/layout/activity_splash.xml" value="0.20854700854700856" />
+        <entry key="..\:/System Software/Projects/Vehicle Tracking/app/src/main/res/layout/activity_tracking_map.xml" value="0.20854700854700856" />
+        <entry key="..\:/System Software/Projects/Vehicle Tracking/app/src/main/res/layout/customised_toolbar.xml" value="0.20854700854700856" />
+        <entry key="..\:/System Software/Projects/Vehicle Tracking/app/src/main/res/layout/loader_layout.xml" value="0.20854700854700856" />
+        <entry key="..\:/System Software/Projects/Vehicle Tracking/app/src/main/res/layout/mobile_otp_verify.xml" value="0.176" />
+        <entry key="..\:/System Software/Projects/Vehicle Tracking/app/src/main/res/layout/not_found_layout.xml" value="0.20854700854700856" />
+        <entry key="..\:/System Software/Projects/Vehicle Tracking/app/src/main/res/layout/something_went_wrong.xml" value="0.20854700854700856" />
+        <entry key="..\:/System Software/Projects/Vehicle Tracking/app/src/main/res/layout/vehicle_item.xml" value="0.20854700854700856" />
+        <entry key="..\:/System Software/Projects/Vehicle Tracking/app/src/main/res/menu/bottom_nav.xml" value="0.20854700854700856" />
+        <entry key="..\:/System Software/Projects/Vehicle Tracking/app/src/main/res/menu/main_page_navigation_menu.xml" value="0.20854700854700856" />
+        <entry key="..\:/System Software/Projects/Vehicle Tracking/app/src/main/res/menu/refresh_menu.xml" value="0.20854700854700856" />
+        <entry key="..\:/System Software/Projects/Vehicle Tracking/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.144" />
+        <entry key="..\:/System Software/Projects/Vehicle Tracking/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.144" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
